@@ -11,17 +11,17 @@ document.addEventListener('DOMContentLoaded', function(){
         .then(jsonData => {
             const points = document.querySelectorAll('.acupoint span');
             const imgDisplay = document.getElementById('img-display');
-            const songInfoDisplay = document.getElementById('song-info');
+            const songInfoDisplay = document.getElementById('jsonText');
             const audioPlayer = document.getElementById('audio-player');
-
-
+            const albumCoverDisplay = document.getElementById('albumCover');
+            const deepThoughtDisplay = document.getElementById('deepThought');
+            // console.log('Fetched JSON data:', jsonData); 
             points.forEach(point =>{
                 const title = point.getAttribute('data-title');
                 const matchingTrack = jsonData.find(track => track.title === title);
 
                 if(matchingTrack) {
-
-                    point.addEventListener('mouseenter',function(){
+                    point.addEventListener('mouseenter', function() {
                         imgDisplay.style.backgroundImage = `url(${matchingTrack.picture})`;
                         imgDisplay.style.left = `${point.offsetLeft + 20}px`;
                         imgDisplay.style.top = `${point.offsetTop}px`; 
@@ -29,11 +29,28 @@ document.addEventListener('DOMContentLoaded', function(){
                         imgDisplay.style.height = "8vw";
                         imgDisplay.style.backgroundSize = "cover";
                         imgDisplay.style.display = 'block'; 
-
                         imgDisplay.style.opacity = '1';
                         imgDisplay.style.transitionDelay = '0s';
+                    });
 
-                        displayTypingEffect(songInfoDisplay, matchingTrack);
+                    point.addEventListener('click',function(){
+                        console.log('Deep Thought in click event:', matchingTrack.deepThought);
+
+                        albumCoverDisplay.style.backgroundImage =  `url(${matchingTrack.picture})`
+
+                        setTimeout(() => {
+                            albumCoverDisplay.classList.add('show'); 
+                        }, 100);
+
+                        deepThoughtDisplay.innerHTML = '';
+                        deepThoughtDisplay.style.opacity = '0';
+
+                        displayTypingEffect(songInfoDisplay, matchingTrack,)
+
+                        setTimeout(() => {
+                            displayDeepThought(deepThoughtDisplay, matchingTrack.deepThought);
+                            console.log('displayDeepThought function is running');
+                        }, 3500);
                     })
 
                     point.addEventListener('mouseleave', function(){
@@ -63,15 +80,17 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function displayTypingEffect(element, trackData){
     const textContent = `
+    {
         "title": ${trackData.title}
         "artist": ${trackData.artist};
         "album": ${trackData.album};
         "duration": ${trackData.duration} seconds
-        "id": ${trackData.id}`;
-        
+        "id": ${trackData.id}
+    },
+            `;
 
     const words = textContent.split('')
-
+    element.innerHTML = '';
     console.log(textContent)
 
     let wordIndex = 0;
@@ -89,6 +108,16 @@ function displayTypingEffect(element, trackData){
     }
 
     typeNextChar();
+}
+
+function displayDeepThought(element, deepThoughtText) {
+    element.innerHTML = '';
+    element.style.opacity = '0';
+
+    setTimeout(function() {
+        element.style.opacity = '1'; 
+        element.innerHTML = deepThoughtText;
+    }, 300); 
 }
 
 function playAudio(url){

@@ -7,8 +7,15 @@ In this self-portrait, I’ve marked 75 acupuncture points on my body and face. 
 I’ve always believed that the music someone enjoys is unique to them, reflecting their individuality, personality, aesthetics, personal experiences, and more. Through this website, you may not know who I am, but you will get a sense of my ear.
 Feel free to click on any acupuncture point on my body to play a song, and I hope you, too, will discover sounds you like..
 
-![background](assets/readme.jpg)
+![background](assets/readme.png)
 
 ## Features 🪶 ：
+Each song has a certain connection and story with me. While a particular song may not reflect my current musical taste, it still represents the past version of myself. Therefore, in addition to the information about each song, I will write one or two sentences about my connection with it.
 
 ## Additional Resources 📁：
+- Fetch json file with: https://soundiiz.com/tutorial/export-apple-music-to-json.
+- Accupunture points reference: http://www.a-hospital.com/w/人体穴位图%28彩图版%29正面#google_vignette
+- Photoshop process tutorials: https://www.bilibili.com/video/BV1eD4y1y7Ye/?spm_id_from=333.880.my_history.page.click
+## Credits and Acknowledgments 🙏
+- Inspired by Susan Sontag’s _On Photography_.
+- Thanks to Lee Yu for helping me find useful resources and guiding me on the issue of webpage background and acupoints positioning.
