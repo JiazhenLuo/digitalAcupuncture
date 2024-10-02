@@ -10,7 +10,7 @@ Feel free to click on any acupuncture point on my body to play a song, and I hop
 ![background](assets/readme.png)
 
 ## Features 🪶 ：
-Each song has a certain connection and story with me. While a particular song may not reflect my current musical taste, it still represents the past version of myself. Therefore, in addition to the information about each song, I will write one or two sentences about my connection with it.
+Click on the acupuncture points on the body to play music. On the right side, the album cover, song information, and the function of the corresponding acupuncture point will be displayed. Click anywhere on the page again to pause the music.
 
 ## Additional Resources 📁：
 - Fetch json file with: https://soundiiz.com/tutorial/export-apple-music-to-json.
