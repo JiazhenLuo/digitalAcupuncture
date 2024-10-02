@@ -1,0 +1,465 @@
+[
+    {
+        "id": "qisheL",
+        "name": "气舍 (Qì Shè)",
+        "function_Chinese": "气舍为足少阳胆经腧穴，主治咳嗽、气喘、咽喉肿痛，通调气机，利咽平喘。",
+        "function_English": "Qì Shè is a point on the Gallbladder Meridian, used to treat cough, asthma, and sore throat by regulating Qi and relieving asthma."
+    },
+    {
+        "id": "heyanL",
+        "name": "颌厌 (Hé Yàn)",
+        "function_Chinese": "颌厌为足少阳胆经腧穴，主治头痛、眩晕、耳鸣，通调头面气血，止痛开窍。",
+        "function_English": "Hé Yàn is a point on the Gallbladder Meridian, treating headaches, dizziness, and tinnitus by regulating Qi and Blood in the head and opening orifices."
+    },
+    {
+      "id": "quepenL",
+      "name": "缺盆 (Quē Pén)",
+      "function_Chinese": "缺盆为足阳明胃经腧穴，主治咳逆气喘，胸膈满闷，肩臂痛麻，和气化痰。",
+      "function_English": "Quē Pén is a point on the Stomach Meridian, treating cough, asthma, chest fullness, and shoulder-arm pain by harmonizing Qi and resolving phlegm."
+    },
+    {
+      "id": "qihuiL",
+      "name": "气会 (Qì Huì)",
+      "function_Chinese": "气会乃足少阳胆经穴，通调全身气机，主治气滞、气虚诸症，健运脾胃，理气化湿。",
+      "function_English": "Qì Huì, located on the Gallbladder Meridian, regulates the body's Qi, treating Qi stagnation and deficiency, and harmonizing the Spleen and Stomach."
+    },
+    {
+      "id": "qihuL",
+      "name": "气户 (Qì Hù)",
+      "function_Chinese": "气户为足阳明胃经腧穴，主治胸痛、咳嗽、气喘，能开胸理气，调中气滞。",
+      "function_English": "Qì Hù is a point on the Stomach Meridian, treating chest pain, cough, and asthma by opening the chest and regulating Qi stagnation."
+    },
+    {
+      "id": "kufangL",
+      "name": "库房 (Kù Fáng)",
+      "function_Chinese": "库房属足阳明胃经，主治胸胁疼痛、咳嗽气喘，调理脾胃、和中安神。",
+      "function_English": "Kù Fáng, on the Stomach Meridian, treats chest and flank pain, cough, and asthma, harmonizing the Stomach and calming the spirit."
+    },
+    {
+      "id": "wuyiL",
+      "name": "屋翳 (Wū Yì)",
+      "function_Chinese": "屋翳为足阳明胃经穴，主治胸部胀痛、咳嗽气喘，和气化痰，通调气血。",
+      "function_English": "Wū Yì, on the Stomach Meridian, treats chest fullness, cough, and asthma, resolving phlegm and regulating Qi and Blood."
+    },
+    {
+      "id": "yongchuangL",
+      "name": "庸窗 (Yōng Chuāng)",
+      "function_Chinese": "庸窗属足阳明胃经穴，主治胸痛、咳嗽，调理脾胃，行气止痛，祛痰宁心。",
+      "function_English": "Yōng Chuāng, on the Stomach Meridian, is used for chest pain and cough, regulating the Stomach and relieving pain."
+    },
+    {
+      "id": "touzhuiL",
+      "name": "头锥 (Tóu Zhuī)",
+      "function_Chinese": "头锥为督脉之腧穴，主治头痛、眩晕、项背强痛，调理督脉气血，通络止痛。",
+      "function_English": "Tóu Zhuī, a point on the Du Meridian, treats headache, dizziness, and neck pain by regulating Du Meridian Qi and Blood."
+    },
+    {
+      "id": "benshenL",
+      "name": "本神 (Běn Shén)",
+      "function_Chinese": "本神为足少阳胆经腧穴，主治头痛、目眩、精神恍惚，调和肝胆，开窍安神。",
+      "function_English": "Běn Shén is on the Gallbladder Meridian, treating headache, dizziness, and mental confusion by harmonizing the Liver and calming the spirit."
+    },
+    {
+      "id": "yangbaiL",
+      "name": "阳白 (Yáng Bái)",
+      "function_Chinese": "阳白为足少阳胆经腧穴，主治头痛、目赤肿痛、面神经麻痹，通调头面气血。",
+      "function_English": "Yáng Bái is located on the Gallbladder Meridian, used for headaches, red eyes, and facial paralysis, regulating Qi and Blood in the head."
+    },
+    {
+      "id": "muchuangL",
+      "name": "目窗 (Mù Chuāng)",
+      "function_Chinese": "目窗属足少阳胆经，主治头痛、目疾，明目止痛，通调头部气血。",
+      "function_English": "Mù Chuāng, on the Gallbladder Meridian, treats headaches and eye diseases, brightening the eyes and regulating head Qi and Blood."
+    },
+    {
+      "id": "zutaiyangpangguangjinL",
+      "name": "足太阳膀胱经 (Zú Tài Yáng Páng Guāng Jīng)",
+      "function_Chinese": "足太阳膀胱经贯穿背部，主治头痛、背痛、足痛等病，调节水液代谢，利尿消肿。",
+      "function_English": "The Bladder Meridian regulates water metabolism and is used to treat headaches, back pain, and leg pain, promoting urination and reducing swelling."
+    },
+    {
+      "id": "linqiL",
+      "name": "临泣 (Lín Qì)",
+      "function_Chinese": "临泣为足少阳胆经腧穴，主治头痛、眼疾、耳鸣，通调肝胆气机，开窍醒神。",
+      "function_English": "Lín Qì, on the Gallbladder Meridian, treats headaches, eye disorders, and tinnitus by regulating Liver and Gallbladder Qi."
+    },
+    {
+      "id": "quchaL",
+      "name": "曲差 (Qū Chà)",
+      "function_Chinese": "曲差属督脉腧穴，主治头痛、眩晕、目疾，调理头面气血，止痛明目。",
+      "function_English": "Qū Chà, a Du Meridian point, treats headache, dizziness, and eye issues, regulating Qi and Blood in the head and relieving pain."
+    },
+    {
+      "id": "wuchuL",
+      "name": "五处 (Wǔ Chù)",
+      "function_Chinese": "五处为足少阳胆经腧穴，主治头痛、眩晕、目疾，通调气血，舒缓头部经络。",
+      "function_English": "Wǔ Chù is on the Gallbladder Meridian, treating headaches, dizziness, and eye conditions by regulating Qi and Blood."
+    },
+    {
+      "id": "meichongL",
+      "name": "眉冲 (Méi Chōng)",
+      "function_Chinese": "眉冲属足太阳膀胱经，主治头痛、目疾，清头明目，通调气血。",
+      "function_English": "Méi Chōng, on the Bladder Meridian, treats headaches and eye conditions, clearing the head and brightening the eyes."
+    },
+    {
+      "id": "chuanzhuL",
+      "name": "攒竹 (Zǎn Zhú)",
+      "function_Chinese": "攒竹为足太阳膀胱经腧穴，主治头痛、眼疾，通调头部气血，清利头目。",
+      "function_English": "Zǎn Zhú, on the Bladder Meridian, is used for headaches and eye problems, regulating head Qi and Blood."
+    },
+    {
+      "id": "jingmingL",
+      "name": "精明 (Jīng Míng)",
+      "function_Chinese": "精明为足太阳膀胱经腧穴，主治目赤肿痛、迎风流泪，清肝明目，利窍通经。",
+      "function_English": "Jīng Míng, on the Bladder Meridian, treats red, painful eyes and tearing, clearing Liver heat and brightening vision."
+    },
+    {
+      "id": "yuyaoL",
+      "name": "鱼腰 (Yú Yāo)",
+      "function_Chinese": "鱼腰为经外奇穴，主治目疾、头痛，通调局部经络气血，明目止痛。",
+      "function_English": "Yú Yāo, an extra-meridian point, treats eye disorders and headaches, regulating local meridian Qi and Blood to relieve pain."
+    },
+    {
+      "id": "shangmingL",
+      "name": "上名 (Shàng Míng)",
+      "function_Chinese": "上名为督脉腧穴，主治目疾、头痛，清利头目，调理头部气血。",
+      "function_English": "Shàng Míng, on the Du Meridian, treats eye disorders and headaches by clearing the head and regulating Qi and Blood."
+    },
+    {
+      "id": "chengqiL",
+      "name": "承泣 (Chéng Qì)",
+      "function_Chinese": "承泣属足阳明胃经，主治目赤肿痛、视力减退，清肝明目，通调气血。",
+      "function_English": "Chéng Qì is on the Stomach Meridian, treating red eyes and vision problems, clearing Liver heat and regulating Qi and Blood."
+    },
+    {
+      "id": "taiyangL",
+      "name": "太阳 (Tài Yáng)",
+      "function_Chinese": "太阳为经外奇穴，主治头痛、目疾，通调局部气血，清头明目。",
+      "function_English": "Tài Yáng is an extra-meridian point, treating headaches and eye conditions by regulating Qi and Blood and clearing the head."
+    },
+    {
+      "id": "sizhukongL",
+      "name": "丝竹空 (Sī Zhú Kōng)",
+      "function_Chinese": "丝竹空为足少阳胆经腧穴，主治头痛、目赤肿痛、目眩，清利头目，通调气血。",
+      "function_English": "Sī Zhú Kōng is on the Gallbladder Meridian, treating headaches, red eyes, and dizziness, clearing heat and regulating Qi."
+    },
+    {
+      "id": "ermenL",
+      "name": "耳门 (Ěr Mén)",
+      "function_Chinese": "耳门属手少阳三焦经，主治耳鸣、耳聋、颞颌关节痛，通调耳部气血。",
+      "function_English": "Ěr Mén is on the Sanjiao Meridian, treating tinnitus, deafness, and temporomandibular joint pain by regulating Qi and Blood in the ear."
+    },
+    {
+      "id": "tinggongL",
+      "name": "听宫 (Tīng Gōng)",
+      "function_Chinese": "听宫为手太阳小肠经腧穴，主治耳鸣、耳聋、颞颌关节痛，通调耳部气血。",
+      "function_English": "Tīng Gōng is on the Small Intestine Meridian, treating tinnitus, deafness, and jaw pain by regulating Qi and Blood in the ear."
+    },
+    {
+      "id": "tinghuiL",
+      "name": "听会 (Tīng Huì)",
+      "function_Chinese": "听会属足少阳胆经，主治耳鸣、耳聋、颞颌关节痛，调理气血，舒缓痛症。",
+      "function_English": "Tīng Huì is on the Gallbladder Meridian, treating tinnitus, deafness, and temporomandibular pain by regulating Qi and Blood."
+    },
+    {
+      "id": "qiuhouL",
+      "name": "球后 (Qiú Hòu)",
+      "function_Chinese": "球后为经外奇穴，主治目疾、眼胀痛，通调局部气血，明目止痛。",
+      "function_English": "Qiú Hòu, an extra-meridian point, treats eye disorders and pain by regulating Qi and Blood in the eye area."
+    },
+    {
+      "id": "sibaiL",
+      "name": "四白 (Sì Bái)",
+      "function_Chinese": "四白属足阳明胃经，主治目疾、面痛，清利头目，通调面部气血。",
+      "function_English": "Sì Bái is on the Stomach Meridian, treating eye conditions and facial pain by regulating Qi and Blood in the face."
+    },
+    {
+      "id": "juliaoL",
+      "name": "巨髎 (Jù Liáo)",
+      "function_Chinese": "巨髎为足阳明胃经腧穴，主治鼻塞、口眼歪斜、面神经麻痹，通调面部气血。",
+      "function_English": "Jù Liáo is on the Stomach Meridian, treating nasal congestion, facial paralysis, and trigeminal neuralgia by regulating Qi and Blood."
+    },
+    {
+      "id": "yingxiangL",
+      "name": "迎香 (Yíng Xiāng)",
+      "function_Chinese": "迎香属足阳明胃经，主治鼻塞、鼻炎、面神经麻痹，通调鼻窍，行气化滞。",
+      "function_English": "Yíng Xiāng is on the Stomach Meridian, treating nasal congestion, rhinitis, and facial paralysis by regulating Qi and clearing the nasal passages."
+    },
+    {
+      "id": "dicangL",
+      "name": "地仓 (Dì Cāng)",
+      "function_Chinese": "地仓为足阳明胃经腧穴，主治口歪眼斜、面神经麻痹，调理气血，止痛宁神。",
+      "function_English": "Dì Cāng is on the Stomach Meridian, treating facial paralysis and trigeminal neuralgia by regulating Qi and Blood."
+    },
+    {
+      "id": "jiacheL",
+      "name": "颊车 (Jiá Chē)",
+      "function_Chinese": "颊车为足阳明胃经腧穴，主治牙痛、面神经麻痹、口眼歪斜，通调局部气血，止痛止痉。",
+      "function_English": "Jiá Chē is on the Stomach Meridian, treating toothache, facial paralysis, and lockjaw by regulating Qi and Blood and relieving pain."
+    },
+    {
+      "id": "shoutaiyangxiaochangjingL",
+      "name": "手太阳小肠经 (Shǒu Tài Yáng Xiǎo Cháng Jīng)",
+      "function_Chinese": "手太阳小肠经贯穿手臂，主治肩痛、颈痛、上肢痛，通调经络，舒缓痛症。",
+      "function_English": "The Small Intestine Meridian runs through the arm, treating shoulder, neck, and upper limb pain by regulating the meridian and relieving pain."
+    },
+    {
+      "id": "luhui",
+      "name": "卤会 (Lǔ Huì)",
+      "function_Chinese": "卤会为督脉腧穴，主治头痛、眩晕，调理头部气血，止痛安神。",
+      "function_English": "Lǔ Huì, on the Du Meridian, treats headaches and dizziness by regulating Qi and Blood in the head."
+    },
+    {
+      "id": "shenting",
+      "name": "神庭 (Shén Tíng)",
+      "function_Chinese": "神庭属督脉腧穴，主治头痛、失眠、眩晕，调理督脉气血，宁心安神。",
+      "function_English": "Shén Tíng, on the Du Meridian, treats headache, insomnia, and dizziness by regulating Du Meridian Qi and calming the mind."
+    },
+    {
+      "id": "yintang",
+      "name": "印堂 (Yìn Táng)",
+      "function_Chinese": "印堂为经外奇穴，主治头痛、失眠、鼻塞，通调头部气血，宁心安神。",
+      "function_English": "Yìn Táng, an extra-meridian point, treats headache, insomnia, and nasal congestion by regulating head Qi and Blood and calming the mind."
+    },
+    {
+      "id": "suliao",
+      "name": "素髎 (Sù Liáo)",
+      "function_Chinese": "素髎为督脉腧穴，主治鼻塞、鼻衄、头痛，通调鼻窍，行气止痛。",
+      "function_English": "Sù Liáo, on the Du Meridian, treats nasal congestion, epistaxis, and headache by clearing the nasal passages and relieving pain."
+    },
+    {
+      "id": "renzhong",
+      "name": "人中 (Rén Zhōng)",
+      "function_Chinese": "人中属督脉腧穴，主治昏厥、中风、面瘫，醒脑开窍，通调气血。",
+      "function_English": "Rén Zhōng, on the Du Meridian, is used for fainting, stroke, and facial paralysis, awakening the brain and regulating Qi and Blood."
+    },
+    {
+      "id": "ruiduan",
+      "name": "兑端 (Duì Duān)",
+      "function_Chinese": "兑端为督脉腧穴，主治口眼歪斜、舌强语塞，通调局部气血，舒缓筋络。",
+      "function_English": "Duì Duān, on the Du Meridian, treats facial paralysis and speech problems by regulating Qi and Blood in the area."
+    },
+    {
+      "id": "chengjiang",
+      "name": "承浆 (Chéng Jiāng)",
+      "function_Chinese": "承浆属任脉腧穴，主治面瘫、口眼歪斜、齿痛，通调气血，止痛止痉。",
+      "function_English": "Chéng Jiāng, on the Ren Meridian, treats facial paralysis, toothache, and jaw spasms by regulating Qi and Blood."
+    },
+    {
+      "id": "lianquan",
+      "name": "廉泉 (Lián Quán)",
+      "function_Chinese": "廉泉为任脉腧穴，主治舌强语塞、吞咽困难，通调气血，清利咽喉。",
+      "function_English": "Lián Quán, on the Ren Meridian, treats speech disorders and swallowing difficulties by regulating Qi and Blood and clearing the throat."
+    },
+    {
+        "id": "qisheR",
+        "name": "气舍 (Qì Shè)",
+        "function_Chinese": "气舍为足少阳胆经腧穴，主治咳嗽、气喘、咽喉肿痛，通调气机，利咽平喘。",
+        "function_English": "Qì Shè is a point on the Gallbladder Meridian, used to treat cough, asthma, and sore throat by regulating Qi and relieving asthma."
+    },
+    {
+        "id": "heyanR",
+        "name": "颌厌 (Hé Yàn)",
+        "function_Chinese": "颌厌为足少阳胆经腧穴，主治头痛、眩晕、耳鸣，通调头面气血，止痛开窍。",
+        "function_English": "Hé Yàn is a point on the Gallbladder Meridian, treating headaches, dizziness, and tinnitus by regulating Qi and Blood in the head and opening orifices."
+    },
+    {
+        "id": "quepenR",
+        "name": "缺盆 (Quē Pén)",
+        "function_Chinese": "缺盆为足阳明胃经腧穴，主治咳逆气喘，胸膈满闷，肩臂痛麻，和气化痰。",
+        "function_English": "Quē Pén is a point on the Stomach Meridian, treating cough, asthma, chest fullness, and shoulder-arm pain by harmonizing Qi and resolving phlegm."
+      },
+      {
+        "id": "qihuiR",
+        "name": "气会 (Qì Huì)",
+        "function_Chinese": "气会乃足少阳胆经穴，通调全身气机，主治气滞、气虚诸症，健运脾胃，理气化湿。",
+        "function_English": "Qì Huì, located on the Gallbladder Meridian, regulates the body's Qi, treating Qi stagnation and deficiency, and harmonizing the Spleen and Stomach."
+      },
+      {
+        "id": "qihuR",
+        "name": "气户 (Qì Hù)",
+        "function_Chinese": "气户为足阳明胃经腧穴，主治胸痛、咳嗽、气喘，能开胸理气，调中气滞。",
+        "function_English": "Qì Hù is a point on the Stomach Meridian, treating chest pain, cough, and asthma by opening the chest and regulating Qi stagnation."
+      },
+      {
+        "id": "kufangR",
+        "name": "库房 (Kù Fáng)",
+        "function_Chinese": "库房属足阳明胃经，主治胸胁疼痛、咳嗽气喘，调理脾胃、和中安神。",
+        "function_English": "Kù Fáng, on the Stomach Meridian, treats chest and flank pain, cough, and asthma, harmonizing the Stomach and calming the spirit."
+      },
+      {
+        "id": "wuyiR",
+        "name": "屋翳 (Wū Yì)",
+        "function_Chinese": "屋翳为足阳明胃经穴，主治胸部胀痛、咳嗽气喘，和气化痰，通调气血。",
+        "function_English": "Wū Yì, on the Stomach Meridian, treats chest fullness, cough, and asthma, resolving phlegm and regulating Qi and Blood."
+      },
+      {
+        "id": "yongchuangR",
+        "name": "庸窗 (Yōng Chuāng)",
+        "function_Chinese": "庸窗属足阳明胃经穴，主治胸痛、咳嗽，调理脾胃，行气止痛，祛痰宁心。",
+        "function_English": "Yōng Chuāng, on the Stomach Meridian, is used for chest pain and cough, regulating the Stomach and relieving pain."
+      },
+      {
+        "id": "touzhuiR",
+        "name": "头锥 (Tóu Zhuī)",
+        "function_Chinese": "头锥为督脉之腧穴，主治头痛、眩晕、项背强痛，调理督脉气血，通络止痛。",
+        "function_English": "Tóu Zhuī, a point on the Du Meridian, treats headache, dizziness, and neck pain by regulating Du Meridian Qi and Blood."
+      },
+      {
+        "id": "benshenR",
+        "name": "本神 (Běn Shén)",
+        "function_Chinese": "本神为足少阳胆经腧穴，主治头痛、目眩、精神恍惚，调和肝胆，开窍安神。",
+        "function_English": "Běn Shén is on the Gallbladder Meridian, treating headache, dizziness, and mental confusion by harmonizing the Liver and calming the spirit."
+      },
+      {
+        "id": "yangbaiR",
+        "name": "阳白 (Yáng Bái)",
+        "function_Chinese": "阳白为足少阳胆经腧穴，主治头痛、目赤肿痛、面神经麻痹，通调头面气血。",
+        "function_English": "Yáng Bái is located on the Gallbladder Meridian, used for headaches, red eyes, and facial paralysis, regulating Qi and Blood in the head."
+      },
+      {
+        "id": "muchuangR",
+        "name": "目窗 (Mù Chuāng)",
+        "function_Chinese": "目窗属足少阳胆经，主治头痛、目疾，明目止痛，通调头部气血。",
+        "function_English": "Mù Chuāng, on the Gallbladder Meridian, treats headaches and eye diseases, brightening the eyes and regulating head Qi and Blood."
+      },
+      {
+        "id": "zutaiyangpangguangjinR",
+        "name": "足太阳膀胱经 (Zú Tài Yáng Páng Guāng Jīng)",
+        "function_Chinese": "足太阳膀胱经贯穿背部，主治头痛、背痛、足痛等病，调节水液代谢，利尿消肿。",
+        "function_English": "The Bladder Meridian regulates water metabolism and is used to treat headaches, back pain, and leg pain, promoting urination and reducing swelling."
+      },
+      {
+        "id": "linqiR",
+        "name": "临泣 (Lín Qì)",
+        "function_Chinese": "临泣为足少阳胆经腧穴，主治头痛、眼疾、耳鸣，通调肝胆气机，开窍醒神。",
+        "function_English": "Lín Qì, on the Gallbladder Meridian, treats headaches, eye disorders, and tinnitus by regulating Liver and Gallbladder Qi."
+      },
+      {
+        "id": "quchaR",
+        "name": "曲差 (Qū Chà)",
+        "function_Chinese": "曲差属督脉腧穴，主治头痛、眩晕、目疾，调理头面气血，止痛明目。",
+        "function_English": "Qū Chà, a Du Meridian point, treats headache, dizziness, and eye issues, regulating Qi and Blood in the head and relieving pain."
+      },
+      {
+        "id": "shangxing",
+        "name": "上星 (Shàng Xīng)",
+        "function_Chinese": "上星为督脉腧穴，主治头痛、鼻塞、失眠，通调督脉气血，宁神开窍。",
+        "function_English": "Shàng Xīng, on the Du Meridian, treats headache, nasal congestion, and insomnia by regulating Qi and calming the mind."
+      },
+      {
+        "id": "wuchuR",
+        "name": "五处 (Wǔ Chù)",
+        "function_Chinese": "五处为足少阳胆经腧穴，主治头痛、眩晕、目疾，通调气血，舒缓头部经络。",
+        "function_English": "Wǔ Chù is on the Gallbladder Meridian, treating headaches, dizziness, and eye conditions by regulating Qi and Blood."
+      },
+      {
+        "id": "meichongR",
+        "name": "眉冲 (Méi Chōng)",
+        "function_Chinese": "眉冲属足太阳膀胱经，主治头痛、目疾，清头明目，通调气血。",
+        "function_English": "Méi Chōng, on the Bladder Meridian, treats headaches and eye conditions, clearing the head and brightening the eyes."
+      },
+      {
+        "id": "chuanzhuR",
+        "name": "攒竹 (Zǎn Zhú)",
+        "function_Chinese": "攒竹为足太阳膀胱经腧穴，主治头痛、眼疾，通调头部气血，清利头目。",
+        "function_English": "Zǎn Zhú, on the Bladder Meridian, is used for headaches and eye problems, regulating head Qi and Blood."
+      },
+      {
+        "id": "jingmingR",
+        "name": "精明 (Jīng Míng)",
+        "function_Chinese": "精明为足太阳膀胱经腧穴，主治目赤肿痛、迎风流泪，清肝明目，利窍通经。",
+        "function_English": "Jīng Míng, on the Bladder Meridian, treats red, painful eyes and tearing, clearing Liver heat and brightening vision."
+      },
+      {
+        "id": "yuyaoR",
+        "name": "鱼腰 (Yú Yāo)",
+        "function_Chinese": "鱼腰为经外奇穴，主治目疾、头痛，通调局部经络气血，明目止痛。",
+        "function_English": "Yú Yāo, an extra-meridian point, treats eye disorders and headaches, regulating local meridian Qi and Blood to relieve pain."
+      },
+      {
+        "id": "shangmingR",
+        "name": "上名 (Shàng Míng)",
+        "function_Chinese": "上名为督脉腧穴，主治目疾、头痛，清利头目，调理头部气血。",
+        "function_English": "Shàng Míng, on the Du Meridian, treats eye disorders and headaches by clearing the head and regulating Qi and Blood."
+      },
+      {
+        "id": "chengqiR",
+        "name": "承泣 (Chéng Qì)",
+        "function_Chinese": "承泣属足阳明胃经，主治目赤肿痛、视力减退，清肝明目，通调气血。",
+        "function_English": "Chéng Qì is on the Stomach Meridian, treating red eyes and vision problems, clearing Liver heat and regulating Qi and Blood."
+      },
+      {
+        "id": "taiyangR",
+        "name": "太阳 (Tài Yáng)",
+        "function_Chinese": "太阳为经外奇穴，主治头痛、目疾，通调局部气血，清头明目。",
+        "function_English": "Tài Yáng is an extra-meridian point, treating headaches and eye conditions by regulating Qi and Blood and clearing the head."
+      },
+      {
+        "id": "sizhukongR",
+        "name": "丝竹空 (Sī Zhú Kōng)",
+        "function_Chinese": "丝竹空为足少阳胆经腧穴，主治头痛、目赤肿痛、目眩，清利头目，通调气血。",
+        "function_English": "Sī Zhú Kōng is on the Gallbladder Meridian, treating headaches, red eyes, and dizziness, clearing heat and regulating Qi."
+      },
+      {
+        "id": "ermenR",
+        "name": "耳门 (Ěr Mén)",
+        "function_Chinese": "耳门属手少阳三焦经，主治耳鸣、耳聋、颞颌关节痛，通调耳部气血。",
+        "function_English": "Ěr Mén is on the Sanjiao Meridian, treating tinnitus, deafness, and temporomandibular joint pain by regulating Qi and Blood in the ear."
+      },
+      {
+        "id": "tinggongR",
+        "name": "听宫 (Tīng Gōng)",
+        "function_Chinese": "听宫为手太阳小肠经腧穴，主治耳鸣、耳聋、颞颌关节痛，通调耳部气血。",
+        "function_English": "Tīng Gōng is on the Small Intestine Meridian, treating tinnitus, deafness, and jaw pain by regulating Qi and Blood in the ear."
+      },
+      {
+        "id": "tinghuiR",
+        "name": "听会 (Tīng Huì)",
+        "function_Chinese": "听会属足少阳胆经，主治耳鸣、耳聋、颞颌关节痛，调理气血，舒缓痛症。",
+        "function_English": "Tīng Huì is on the Gallbladder Meridian, treating tinnitus, deafness, and temporomandibular pain by regulating Qi and Blood."
+      },
+      {
+        "id": "qiuhouR",
+        "name": "球后 (Qiú Hòu)",
+        "function_Chinese": "球后为经外奇穴，主治目疾、眼胀痛，通调局部气血，明目止痛。",
+        "function_English": "Qiú Hòu, an extra-meridian point, treats eye disorders and pain by regulating Qi and Blood in the eye area."
+      },
+      {
+        "id": "sibaiR",
+        "name": "四白 (Sì Bái)",
+        "function_Chinese": "四白属足阳明胃经，主治目疾、面痛，清利头目，通调面部气血。",
+        "function_English": "Sì Bái is on the Stomach Meridian, treating eye conditions and facial pain by regulating Qi and Blood in the face."
+      },
+      {
+        "id": "juliaoR",
+        "name": "巨髎 (Jù Liáo)",
+        "function_Chinese": "巨髎为足阳明胃经腧穴，主治鼻塞、口眼歪斜、面神经麻痹，通调面部气血。",
+        "function_English": "Jù Liáo is on the Stomach Meridian, treating nasal congestion, facial paralysis, and trigeminal neuralgia by regulating Qi and Blood."
+      },
+      {
+        "id": "yingxiangR",
+        "name": "迎香 (Yíng Xiāng)",
+        "function_Chinese": "迎香属足阳明胃经，主治鼻塞、鼻炎、面神经麻痹，通调鼻窍，行气化滞。",
+        "function_English": "Yíng Xiāng is on the Stomach Meridian, treating nasal congestion, rhinitis, and facial paralysis by regulating Qi and clearing the nasal passages."
+      },
+      {
+        "id": "dicangR",
+        "name": "地仓 (Dì Cāng)",
+        "function_Chinese": "地仓为足阳明胃经腧穴，主治口歪眼斜、面神经麻痹，调理气血，止痛宁神。",
+        "function_English": "Dì Cāng is on the Stomach Meridian, treating facial paralysis and trigeminal neuralgia by regulating Qi and Blood."
+      },
+      {
+        "id": "jiacheR",
+        "name": "颊车 (Jiá Chē)",
+        "function_Chinese": "颊车为足阳明胃经腧穴，主治牙痛、面神经麻痹、口眼歪斜，通调局部气血，止痛止痉。",
+        "function_English": "Jiá Chē is on the Stomach Meridian, treating toothache, facial paralysis, and lockjaw by regulating Qi and Blood and relieving pain."
+      },
+      {
+        "id": "shoutaiyangxiaochangjingR",
+        "name": "手太阳小肠经 (Shǒu Tài Yáng Xiǎo Cháng Jīng)",
+        "function_Chinese": "手太阳小肠经贯穿手臂，主治肩痛、颈痛、上肢痛，通调经络，舒缓痛症。",
+        "function_English": "The Small Intestine Meridian runs through the arm, treating shoulder, neck, and upper limb pain by regulating the meridian and relieving pain."
+      }
+  ]
+  

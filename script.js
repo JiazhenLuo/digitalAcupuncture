@@ -1,24 +1,45 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    fetch('acupoints.json')
-        .then(response => {
-            if(!response.ok){
-                throw new Error('error')
+    Promise.all([
+
+        fetch('acupoints.json').then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch acupoints.json');
             }
             return response.json();
-        })
+        }).catch(error => {
+            console.error("Error fetching acupoints.json:", error);
+        }),
 
-        .then(jsonData => {
+        fetch('acupointsFunction.json').then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch acupointsFunction.json');
+            }
+            return response.json();
+        }).catch(error => {
+            console.error("Error fetching acupointsFunction.json:", error);
+        })
+    ])
+
+        .then(([jsonData, acupointfunctionData]) => {
             const points = document.querySelectorAll('.acupoint span');
             const imgDisplay = document.getElementById('img-display');
             const songInfoDisplay = document.getElementById('jsonText');
             const audioPlayer = document.getElementById('audio-player');
             const albumCoverDisplay = document.getElementById('albumCover');
-            const deepThoughtDisplay = document.getElementById('deepThought');
+            const acupointFunctionDisplay = document.getElementById('acupointfunction');
             // console.log('Fetched JSON data:', jsonData); 
             points.forEach(point =>{
                 const title = point.getAttribute('data-title');
+                const acupointName = point.getAttribute('id')
                 const matchingTrack = jsonData.find(track => track.title === title);
+                const matchingFunction = acupointfunctionData.find(track => track.id === acupointName);
+
+                if (matchingFunction) {
+                    console.log('Matching Function: all good');
+                } else {
+                    console.error('No matching function for', title);
+                }
 
                 if(matchingTrack) {
                     point.addEventListener('mouseenter', function() {
@@ -34,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function(){
                     });
 
                     point.addEventListener('click',function(){
-                        console.log('Deep Thought in click event:', matchingTrack.deepThought);
+                        // console.log('Deep Thought in click event:', matchingTrack.deepThought);
 
                         albumCoverDisplay.style.backgroundImage =  `url(${matchingTrack.picture})`
 
@@ -42,15 +63,16 @@ document.addEventListener('DOMContentLoaded', function(){
                             albumCoverDisplay.classList.add('show'); 
                         }, 100);
 
-                        deepThoughtDisplay.innerHTML = '';
-                        deepThoughtDisplay.style.opacity = '0';
+                        acupointFunctionDisplay.innerHTML = '';
+                        acupointFunctionDisplay.style.opacity = '0';
 
                         displayTypingEffect(songInfoDisplay, matchingTrack,)
-
+                        
                         setTimeout(() => {
-                            displayDeepThought(deepThoughtDisplay, matchingTrack.deepThought);
-                            console.log('displayDeepThought function is running');
-                        }, 3500);
+                            displayacupointsFunction(acupointFunctionDisplay, matchingFunction,);
+                        console.log('displayDeepThought function is running');
+                    }, 3500);
+
                     })
 
                     point.addEventListener('mouseleave', function(){
@@ -81,11 +103,11 @@ document.addEventListener('DOMContentLoaded', function(){
 function displayTypingEffect(element, trackData){
     const textContent = `
     {
-        "title": ${trackData.title}
-        "artist": ${trackData.artist};
-        "album": ${trackData.album};
-        "duration": ${trackData.duration} seconds
-        "id": ${trackData.id}
+        "title": "${trackData.title}",
+        "artist": "${trackData.artist}",
+        "album": "${trackData.album}",
+        "duration": "${trackData.duration} seconds",
+        "id": "${trackData.id}"
     },
             `;
 
@@ -110,13 +132,20 @@ function displayTypingEffect(element, trackData){
     typeNextChar();
 }
 
-function displayDeepThought(element, deepThoughtText) {
+function displayacupointsFunction(element, trackFunction) {
+
+    const functionText = `
+        <p>${trackFunction.name}:</p>
+        <p>${trackFunction.function_Chinese}</p>
+        <p>${trackFunction.function_English}</p>
+    `;
+
     element.innerHTML = '';
     element.style.opacity = '0';
 
     setTimeout(function() {
         element.style.opacity = '1'; 
-        element.innerHTML = deepThoughtText;
+        element.innerHTML = functionText;
     }, 300); 
 }
 
