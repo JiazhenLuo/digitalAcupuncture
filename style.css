@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -60,7 +60,7 @@ body{
     position: absolute;
     width: 100px;
     height: 100px;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 6px 6px rgba(105, 105, 105, 0.5);
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
     z-index: 999;
@@ -83,9 +83,11 @@ h3{
     padding: 0;
     text-indent: 0%;
     margin-bottom: 1em;
+    color: rgb(182, 182, 182);
 }
 
 .introduction p{
+    color: rgb(182, 182, 182);
     margin-top: 0;
     margin-bottom: 1em;
     padding: 0;
@@ -93,6 +95,7 @@ h3{
 }
 
 .song-info {
+    color: rgb(182, 182, 182);
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -123,10 +126,11 @@ h3{
 
 .albumCover.show{
     opacity: 1;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 6px 13px rgba(109, 109, 109, 0.5);
 }
 
 .jsonText{
+    color: rgb(182, 182, 182);
     margin: 0;
     white-space: pre-wrap;
     width: 300px;
@@ -144,7 +148,7 @@ h3{
     width: 300px;
     opacity: 0%;
     transition: opacity 1s ease;
-    color: rgb(0, 0, 0);
+    color: rgb(182, 182, 182);
     text-indent: 0;
     margin: 0;
     padding: 0;
