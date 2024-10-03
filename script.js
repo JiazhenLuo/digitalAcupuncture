@@ -108,8 +108,7 @@ function displayTypingEffect(element, trackData){
         "album": "${trackData.album}",
         "duration": "${trackData.duration} seconds",
         "id": "${trackData.id}"
-    },
-            `;
+    },`;
 
     const words = textContent.split('')
     element.innerHTML = '';

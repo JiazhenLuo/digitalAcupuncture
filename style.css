@@ -135,6 +135,10 @@ h3{
     word-wrap: break-word; 
 }
 
+.jsonText p{
+    text-align: left;
+}
+
 .acupointfunction{
     white-space: pre-line;
     width: 300px;
@@ -148,7 +152,8 @@ h3{
 
 .acupointfunction p{
     padding: 0;
-    margin: 0;
+    margin: -3px;
+
 }
 
 #song-info::-webkit-scrollbar {
